@@ -30,9 +30,9 @@ wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-357.941101, 90.1401367, 526.407532, -0.999999642, -3.96767318e-05, -0.000844269351, -3.86801221e-05, 0.999999285, -0.00118042249, 0.000844315626, -0.00118038943, -0.999998927)
 wait(2)
 game:GetService("VirtualInputManager"):SendKeyEvent(true,"E",false,game)
-wait(1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-377.486359, 90.6343307, 485.425018, -0.998254478, -4.13581418e-08, 0.059058819, -3.70306132e-08, 1, 7.43693178e-08, -0.059058819, 7.20525222e-08, -0.998254478)
 wait(5.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-377.486359, 90.6343307, 485.425018, -0.998254478, -4.13581418e-08, 0.059058819, -3.70306132e-08, 1, 7.43693178e-08, -0.059058819, 7.20525222e-08, -0.998254478)
+wait(1)
 local Tween = game:GetService("TweenService")
 
 local Tw = Tween:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(3, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0),
